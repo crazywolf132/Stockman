@@ -22,4 +22,4 @@ class stockItem {
         double price = 0.00;
         int stockOnHand = 0;
 
-}
+};

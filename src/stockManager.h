@@ -17,4 +17,4 @@ class stockManager {
     private:
         int stockCount = 0;
         vector< stockItem > stock;
-}
+};

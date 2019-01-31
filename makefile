@@ -1,8 +1,8 @@
 CC=g++
 CFLAGS=-I
 
-all: main.o stockManager.o stockItem.o
-	$(CC) -o stockMan main.o stockManager.o stockItem.o
+all:
+	$(MAKE) -C src
 
 clean:
 	rm -rf ./*.o
